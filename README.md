@@ -26,7 +26,7 @@ Once this runs, any new document added to the folder is automatically embedded a
 
 This workflow powers the actual conversation. It takes a user's message, retrieves relevant context from Pinecone, and responds using an LLM.
 
-![Chat agent workflow](screenshots/chat-agent-workflow.png)
+![Chat agent workflow](screenshots/chat-agent-workflows.png)
 
 **Flow:**
 - **When chat message received** — entry point that listens for incoming user messages
