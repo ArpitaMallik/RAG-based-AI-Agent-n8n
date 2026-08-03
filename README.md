@@ -10,7 +10,7 @@ The project has two workflows: one that ingests and indexes documents, and one t
 
 This workflow watches a Google Drive folder and automatically processes any new file into the vector database.
 
-![Ingestion workflow](ingestion-workflow.png)
+![Ingestion workflow](screenshots/ingestion-workflow.png)
 
 **Flow:**
 - **Google Drive Trigger** — fires when a new file is created in the watched folder
@@ -26,7 +26,7 @@ Once this runs, any new document added to the folder is automatically embedded a
 
 This workflow powers the actual conversation. It takes a user's message, retrieves relevant context from Pinecone, and responds using an LLM.
 
-![Chat agent workflow](chat-agent-workflow.png)
+![Chat agent workflow](screenshots/chat-agent-workflow.png)
 
 **Flow:**
 - **When chat message received** — entry point that listens for incoming user messages
